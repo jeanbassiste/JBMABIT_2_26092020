@@ -23,6 +23,12 @@
         src: url('font/Raleway-SemiBold.ttf')
     }
 
+@font-face
+    {
+        font-family: Raleway_large;
+        src: url('font/Raleway-Bold.ttf')
+    }
+
 /* Règles générales de la page*/
 body
     {
@@ -32,12 +38,7 @@ body
         font-family: Raleway;
     }
 
-
-h1 
-    {
-        text-align: right;
-    }
-.test
+    .test
     {
         text-align: center;
         width: 1440px;
@@ -52,6 +53,7 @@ header
         margin-right: 3.2%;
         margin-top: 43px;
         display: flex;
+        margin-bottom: 34px;
     }
 
 
@@ -104,6 +106,14 @@ header
         padding-left: 6.7%;
     }
 
+/* Mise en page de la section recherche*/
+
+h1
+    {
+        margin-left:3.3%;
+        font-family: raleway_large;
+        font-size: 1.37em;
+    }
 /* Mise en page du footer*/
 footer
     {
