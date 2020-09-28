@@ -11,6 +11,50 @@
         src: url('font/Raleway-Medium.ttf');
     }
 
+@font-face
+    {
+        font-family: Raleway;
+        src: url('font/Raleway-VariableFont_wght.ttf')
+    }
+
+body
+    {
+        font-family: Raleway;
+    }
+
+/* Mise en page du header*/
+header
+    {
+        margin-left: 3.2%;
+        margin-right: 3.2%;
+        margin-top: 43px;
+        display: flex;
+    }
+
+.menu    
+    {
+        list-style-type: none;
+        display: flex;
+        position: absolute;
+        top: 0px;
+        right: 3.2%;
+        width: 35%;
+    }
+
+.bouton_actif, .bouton_inactif
+    {
+        height:60px;
+        position: relative;
+        top: 0px;
+        width: 35%;
+        text-align: center;
+    }
+
+.bouton_actif
+    {
+        border-top: solid 2px #0065FC;
+        color: #0065FC;
+    }
 
 /* Mise en page du footer*/
 footer
