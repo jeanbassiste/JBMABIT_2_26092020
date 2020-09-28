@@ -14,17 +14,41 @@
 @font-face
     {
         font-family: Raleway;
-        src: url('font/Raleway-VariableFont_wght.ttf')
+        src: url('font/Raleway-Regular.ttf')
     }
 
+@font-face
+    {
+        font-family: Raleway_medium;
+        src: url('font/Raleway-SemiBold.ttf')
+    }
+
+/* Règles générales de la page*/
 body
     {
+        width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
         font-family: Raleway;
+        background-color: aqua;
+    }
+
+
+h1 
+    {
+        text-align: right;
+    }
+.test
+    {
+        text-align: center;
+        width: 1440px;
+        background-color: yellow;
     }
 
 /* Mise en page du header*/
 header
     {
+        width: 100%;
         margin-left: 3.2%;
         margin-right: 3.2%;
         margin-top: 43px;
@@ -33,27 +57,54 @@ header
 
 .menu    
     {
-        list-style-type: none;
-        display: flex;
         position: absolute;
+        right: 4.5%;
         top: 0px;
-        right: 3.2%;
-        width: 35%;
+        width: 31%;
+        height: 56px;
+        background-color: thistle;
+        list-style-type: none;
+        display: flex;  
+        justify-content: flex-start;
+        align-content: flex-end;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
 .bouton_actif, .bouton_inactif
     {
-        height:60px;
-        position: relative;
-        top: 0px;
-        width: 35%;
+        width: 33.4%;
+        padding-top: 29.5px;
         text-align: center;
+    
     }
 
 .bouton_actif
     {
-        border-top: solid 2px #0065FC;
         color: #0065FC;
+        background-color: lime;
+        border-top: solid 2px #0065FC;
+        font-size: 0.98em;
+        font-family: raleway_medium;
+    }
+
+.bouton_inactif
+    {
+        background-color: magenta;
+        border-top: solid 2px white;
+        font-size: 0.9em;
+        font-family: raleway;
+    }
+
+.inscription
+    {
+        background-color: red;
+        width: 33.2%;
+        color: #0065FC;
+        font-family: raleway_bold;
+        padding-top: 29.5px;
+        border-top: solid 2px white;
+        padding-left: 6.7%;
     }
 
 /* Mise en page du footer*/
