@@ -114,6 +114,15 @@ h1
         font-family: raleway_large;
         font-size: 1.37em;
     }
+
+.motto
+    {
+        margin-left:3.3%;
+        font-family: raleway_light;
+        font-size: 0.99em;
+        position: relative;
+        bottom: 10px;
+    }
 /* Mise en page du footer*/
 footer
     {
