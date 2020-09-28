@@ -45,6 +45,12 @@ body
         background-color: yellow;
     }
 
+.no_style
+    {
+        text-decoration: none;
+        color: inherit;
+    }
+
 /* Mise en page du header*/
 header
     {
