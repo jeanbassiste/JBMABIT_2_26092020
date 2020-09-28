@@ -53,7 +53,7 @@ header
         margin-right: 3.2%;
         margin-top: 43px;
         display: flex;
-        margin-bottom: 34px;
+        margin-bottom: 33px;
     }
 
 
@@ -93,7 +93,9 @@ header
     {
         border-top: solid 2px white;
         font-size: 0.98em;
-        font-family: raleway;
+        font-family: raleway_light;
+        position: relative;
+        right: 2.5px;
     }
 
 .inscription
@@ -104,6 +106,8 @@ header
         padding-top: 29px;
         border-top: solid 2px white;
         padding-left: 6.7%;
+        position: relative;
+        right: 14px;
     }
 
 /* Mise en page de la section recherche*/
@@ -123,6 +127,7 @@ h1
         position: relative;
         bottom: 10px;
     }
+
 /* Mise en page du footer*/
 footer
     {
