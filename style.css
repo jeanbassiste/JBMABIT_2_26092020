@@ -124,6 +124,18 @@ header
         padding-left:3.3%;
     }
 
+.barre_recherche
+    {
+        display: flex;
+    }
+.GPS
+    {
+        background-color: #F2F2F2;
+        width: 50px;
+        height: 50px;
+        border-top-left-radius: 30%;
+        border-bottom-left-radius: 30%;
+    }
 h1
     {
         font-family: raleway_large;
@@ -140,8 +152,8 @@ h1
 
 .cercle
     {
-        width: 20px;
-        height: 20px;
+        width: 21px;
+        height: 21px;
         border-radius: 50%;
         border: 2px solid #F2F2F2;
         display: inline-block;
@@ -153,6 +165,32 @@ h1
         position: relative;
         top: 2px;
         padding-left: 0.5%;
+    }
+
+#location
+    {
+        height: 50px;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #F2F2F2;
+        border-bottom: 1px solid #F2F2F2;
+        font-family: raleway_bold;
+        font-size:1.1em;
+        padding-left:15px;
+    }
+.bouton_recherche
+    {
+        height:50px;
+        background-color: #0065FC;
+        color: white;
+        font-family: raleway_large;
+        font-size:1.1em;
+        padding-left:15px;
+        border:none;
+        border-top-right-radius: 15%;
+        border-bottom-right-radius: 15%;
+    
+
     }
 /* Mise en page du footer*/
 footer
