@@ -119,23 +119,41 @@ header
     }
 
 /* Mise en page de la section recherche*/
+#recherche
+    {
+        padding-left:3.3%;
+    }
 
 h1
     {
-        margin-left:3.3%;
         font-family: raleway_large;
         font-size: 1.37em;
     }
 
 .motto
     {
-        margin-left:3.3%;
         font-family: raleway_light;
         font-size: 0.99em;
         position: relative;
         bottom: 10px;
     }
 
+.cercle
+    {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2px solid #F2F2F2;
+        display: inline-block;
+    }
+
+.résultats
+    {
+        display: inline;
+        position: relative;
+        top: 2px;
+        padding-left: 0.5%;
+    }
 /* Mise en page du footer*/
 footer
     {
