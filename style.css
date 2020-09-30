@@ -60,7 +60,7 @@ header
         margin-top: 43px;
         display: flex;
         margin-bottom: 33px;
-        flex-wrap:wrap;
+        flex-wrap:wrap-reverse;
     }
 
 
@@ -74,7 +74,7 @@ header
         list-style-type: none;
         display: flex;  
         justify-content: flex-start;
-        align-content: flex-end;
+  
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -82,10 +82,9 @@ header
 .bouton_actif, .bouton_inactif
     {
         padding-top: 29px;
-        width: 37.4%;
-        min-width: 100px;
         text-align: center;
-        padding-left: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
     
     }
 
@@ -102,20 +101,15 @@ header
         border-top: solid 2px white;
         font-size: 0.98em;
         font-family: raleway_light;
-        position: relative;
-        right: 2.5px;
     }
 
 .inscription
     {
-        width: 33.2%;
         color: #0065FC;
         font-family: raleway_bold;
         padding-top: 29px;
         border-top: solid 2px white;
-        padding-left: 6.7%;
-        position: relative;
-        right: 14px;
+        padding-left: 20px;
     }
 
 /* Mise en page de la section recherche*/
@@ -187,8 +181,8 @@ h1
         font-family: raleway_large;
         font-size:1.1em;
         border:none;
-        border-top-right-radius: 10%;
-        border-bottom-right-radius: 10%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
         border-top: 1px solid #0065FC;
         border-bottom: 1px solid #0065fc;
         position: relative;
