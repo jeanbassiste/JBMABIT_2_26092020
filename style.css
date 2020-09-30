@@ -191,6 +191,14 @@ h1
         border-bottom-right-radius: 10%;
         border-top: 1px solid #0065FC;
         border-bottom: 1px solid #0065fc;
+        position: relative;
+        right: 3px;
+    }
+
+.champ_recherche
+    {
+        position:relative;
+        bottom: 16px;
     }
 
 h3  
