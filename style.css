@@ -325,6 +325,33 @@ h2
         font-family: raleway_large;
     }
 
+.container_grid
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-between;
+        align-content: space-between;
+        justify-items: center;
+        align-content: center;
+    }
+
+.fiche_vert
+    {
+        background-color: white;
+        width: 90%;
+    }
+
+.A  
+    {
+        justify-self: start;
+    }
+
+.C  
+    {
+        justify-self: end;
+    }
+
 /* Mise en page du bloc activité*/
 
 #activites
