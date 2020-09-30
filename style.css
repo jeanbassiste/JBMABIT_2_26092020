@@ -58,21 +58,18 @@ header
         margin-top: 43px;
         display: flex;
         margin-bottom: 33px;
-        flex-wrap:wrap-reverse;
+        flex-wrap:wrap;
     }
 
 
 .menu    
     {
         position: absolute;
-        right: 4.5%;
+        right: 7.5%;
         top: 0px;
-        width: 31%;
         height: 56px;
         list-style-type: none;
         display: flex;  
-        justify-content: flex-start;
-  
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -169,6 +166,12 @@ h1
         font-size:1.1em;
         padding-left:15px;
     }
+
+.fil 
+    {
+        font-size:1.1em;
+    }
+    
 .bouton_recherche
     {
         height:50px;
