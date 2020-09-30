@@ -181,16 +181,52 @@ h1
 .bouton_recherche
     {
         height:50px;
+        width: 133px;
         background-color: #0065FC;
         color: white;
         font-family: raleway_large;
         font-size:1.1em;
-        padding-left:15px;
         border:none;
-        border-top-right-radius: 15%;
-        border-bottom-right-radius: 15%;
-    
+        border-top-right-radius: 10%;
+        border-bottom-right-radius: 10%;
+        border-top: 1px solid #0065FC;
+        border-bottom: 1px solid #0065fc;
+    }
 
+h3  
+    {
+        font-size:1.3em;
+    }
+
+.container_filtres
+    {
+        margin-bottom: 25px;
+        display: flex;
+        background-color: aqua;
+    }
+
+.filtres 
+    {
+        border: solid 3px #F2F2F2;
+        border-radius: 50%;
+        display: flex;
+        height: 50px;
+    }
+
+.rond
+    {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid #deebff;
+        display: inline-block;
+        background-color: #deebff;
+    }
+
+.texte_filtre
+    {
+        font-family: raleway_bold;
+        font-size:1.1em;
     }
 /* Mise en page du footer*/
 footer
