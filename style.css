@@ -227,7 +227,6 @@ h1
         bottom: 16px;
     }
 
-
 .container_filtres
     {
         margin-bottom: 15px;
@@ -246,6 +245,17 @@ h1
         border-radius: 40px;
         display: flex;
         height: 45px;
+    }
+
+.filtres:hover 
+    {
+       background-color: #deebff;
+    }
+
+.filtres:active 
+    {
+       background-color: #0065FC;
+       color: white;
     }
 
 .rond
