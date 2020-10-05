@@ -59,15 +59,15 @@ header
         margin-left: 7.5%;
         margin-top: 43px;
         display: flex;
-        margin-bottom: 33px;
         flex-wrap:wrap;
-        background-color: red;
     }
 
 nav 
-    {margin-left: 55%;
-    position: relative;
-    bottom: 40px;}
+    {
+        margin-left: 55%;
+        position: relative;
+        bottom: 40px;
+    }
 
 .logo_inscription
     {
@@ -126,7 +126,11 @@ nav
 
 /* Mise en page de la section recherche*/
 
-
+#recherche
+{
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+}
 .barre_recherche
     {
         display: flex;
@@ -192,7 +196,7 @@ h1
         margin-right: 30px;
     }
 
-.bouton_recherche
+.bouton_recherche_desktop
     {
         height:50px;
         position: relative;
@@ -212,6 +216,11 @@ h1
         padding-right: 15px;
     }
 
+.bouton_recherche_mobile
+    {
+        display: none;
+    }
+
 .champ_recherche
     {
         position:relative;
@@ -221,7 +230,7 @@ h1
 
 .container_filtres
     {
-        margin-bottom: 25px;
+        margin-bottom: 15px;
         display: flex;
         padding-top:auto;
         padding-bottom:auto;
@@ -236,33 +245,32 @@ h1
         border: solid 3px #F2F2F2;
         border-radius: 40px;
         display: flex;
-        height: 40px;
-        margin-top: 5px;
-
+        height: 45px;
     }
 
 .rond
     {
-        width: 40px;
-        height: 40px;
+        width: 44px;
+        height: 44px;
         border-radius: 50%;
         display: inline-block;
         background-color: #deebff;
         padding: 3px;
         position: relative;
-        bottom: 3px;
+        bottom: 2px;
         right:3px;
         padding-right: 5px;
+        font-size: 23px;
     }
 
 .texte_filtre
     {
         font-family: raleway_bold;
         font-size:1.1em;
-        padding:1px;
+        padding:10px;
+        padding-right: 25px;
         position: relative;
-        bottom: 8px;
-        margin-right: 5px;
+        bottom: 15px;
     }
 
 /* Mise en page du footer*/
@@ -398,10 +406,9 @@ h2
 @media screen and (max-width:760px)
     {
 
+/* Header mobile */
     header
         {
-            padding-left: 10px;
-            padding-right: 10px;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
@@ -410,6 +417,8 @@ h2
     .logo_inscription
         {
             justify-content: space-between;
+            padding-left: 15px;
+            padding-right: 15px;
         }
 
     .inscription_mobile
@@ -458,10 +467,36 @@ h2
 .bouton_inactif
     {
         border-top: none;
-        border-bottom: solid 2px white;
+        border-bottom: solid 2px #F2F2F2;
 
     }
 
+/* Section recherche mobile */
+    .bouton_recherche_mobile
+    {
+        height:50px;
+        width:50px;
+        position: relative;
+        bottom: 2px;
+        background-color: #0065FC;
+        border:none;
+        border-radius: 15px;
+        border-top: 1px solid #0065FC;
+        border-bottom: 1px solid #0065fc;
+        position: relative;
+        right: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: initial;
+    }
+
+.bouton_recherche_desktop
+    {
+        display: none;
+    }
+
+
+/* Footer mobile*/
 footer
     {
 
