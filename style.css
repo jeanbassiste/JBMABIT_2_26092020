@@ -35,13 +35,12 @@ body
         margin-left: 7.5%;
         margin-right: 7.5%;
         font-family: Raleway;
-        min-width: 100px;
     }
 
     .test
     {
         text-align: center;
-        width: 1440px;
+        width: 100%;
         background-color: yellow;
     }
 .testpop
@@ -488,7 +487,7 @@ h3
 aside
     {
         width: 100%;
-        background-color: #F2F2F2;
+        background-color: red;
         border-radius: 0px;
         padding-left: 7.5%;
         padding-right: 7.5%;
