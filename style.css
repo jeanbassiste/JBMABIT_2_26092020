@@ -32,8 +32,6 @@
 /* Règles générales de la page*/
 body
     {
-        margin-left: 7.5%;
-        margin-right: 7.5%;
         font-family: Raleway;
     }
 
@@ -57,14 +55,20 @@ body
 /* Mise en page du header*/
 header
     {
-        width: 100%;
+        margin-right: 7.5%;
+        margin-left: 7.5%;
         margin-top: 43px;
         display: flex;
         margin-bottom: 33px;
         flex-wrap:wrap;
         justify-content: space-between;
+        background-color: red;
     }
 
+.logo_inscription
+    {
+        display: flex;
+    }
 
 .menu    
     {
@@ -82,8 +86,8 @@ header
     {
         padding-top: 29px;
         text-align: center;
-        padding-left: 7%;
-        padding-right: 7%;
+        padding-left: 10%;
+        padding-right: 10%;
     
     }
 
@@ -110,6 +114,11 @@ header
         border-top: solid 2px white;
         padding-left: 7%;
         padding-right: 20px;
+    }
+
+.inscription_mobile
+    {
+        display: none;
     }
 
 
@@ -387,22 +396,47 @@ h2
 /* Pour téléphones */
 @media screen and (max-width:760px)
     {
-        body{
-            width: 100%;
-            padding-right:10px;
+
+    header
+        {
             padding-left: 10px;
+            padding-right: 10px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
         }
-        .menu    
+    
+    .logo_inscription
+        {
+            justify-content: space-between;
+        }
+
+    .inscription_mobile
+        {
+            display: inline-block;
+            color: #0065FC;
+            font-family: raleway_bold;
+            text-align: end;
+        }
+    
+    .inscription
+        {
+            display: none;
+        }
+
+    nav
+        {
+            width: 100%;
+        }
+
+
+    .menu    
     {
-        width: 100%;
         height: 56px;
         list-style-type: none;
-        display: flex;  
-        flex-wrap: wrap-reverse;
-        padding-left: 0px;
-        padding-right: 0px;
-        justify-content: flex-end;
+        display: flex; 
     }
+
     .bouton_actif, .bouton_inactif
     {
         padding-top: 29px;
@@ -410,8 +444,19 @@ h2
         padding-left: 7%;
         padding-right: 7%;
         width: 50%;
+    }
 
-    
+    .bouton_actif
+    {
+        border-top:none;
+        border-bottom: solid 2px #0065FC;
+    }
+
+.bouton_inactif
+    {
+        border-top: none;
+        border-bottom: solid 2px white;
+
     }
 
 footer

@@ -4,18 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="icones/css/all.css" />
+    <link rel="icon" href="icones/favicon.png" />
     <title>Reservia</title>
 </head>
 
 <body>
     <!-- HEADER -->
     <header>
-        <a href="#"><img src="images/logo/Reservia.svg" alt="logo réservia" /></a><!--Logo-->
-        <nav><ul class="menu">
+        <div class="logo_inscription">
+            <a href="#"><img src="images/logo/Reservia.svg" alt="logo réservia" /></a><!--Logo-->
+            <p class="inscription_mobile"><a class="no_style" href="#">S'inscrire</a></p>
+        </div>
+        <nav>
+            <ul class="menu">
                 <li class="bouton_actif"><a class="no_style" href="#hebergements">Hébergements</a></li>
                 <li class="bouton_inactif"><a class="no_style" href="#activites">Activités</a></li>
                 <li class="inscription"><a class="no_style" href="#">S'inscrire</a></li>
-        </ul>
+            </ul>
         </nav> <!--menu-->
     </header>
 
@@ -24,7 +29,7 @@
     <section id="recherche">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p class="motto">En plein centre ville ou en pleine nature</p>
-        <div class="barre_recherche">
+        <div class="barre_recherche"> 
             <div class="GPS"><i class="fas fa-map-marker-alt" style="position: relative; top:33%; left:40%;"></i></div>
             <form method="post" action="#" class="recherche">
                 <p class="champ_recherche">
@@ -76,7 +81,7 @@
     <!-- LES PLUS POPULAIRES-->
     <aside>
         <h2>Les plus populaires</h2>
-        <img />
+        <i class="fas fa-chart-line"></i>
         <p class="testpop">TEST POP</p>
         <article class="fiche_hori"></article>
         <article class="fiche_hori"></article>
