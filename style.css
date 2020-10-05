@@ -61,9 +61,13 @@ header
         display: flex;
         margin-bottom: 33px;
         flex-wrap:wrap;
-        justify-content: space-between;
         background-color: red;
     }
+
+nav 
+    {margin-left: 55%;
+    position: relative;
+    bottom: 40px;}
 
 .logo_inscription
     {
@@ -72,9 +76,6 @@ header
 
 .menu    
     {
-        position: absolute;
-        right: 20%;
-        top: 0px;
         height: 56px;
         list-style-type: none;
         display: flex;  
@@ -427,6 +428,8 @@ h2
     nav
         {
             width: 100%;
+            margin-left: 0px;
+            position: initial;
         }
 
 
