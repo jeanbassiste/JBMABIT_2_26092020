@@ -226,6 +226,10 @@ h1
         position:relative;
         bottom: 16px;
     }
+.bouton_mobile 
+    {
+        display:none;
+    }
 
 .container_filtres
     {
@@ -491,6 +495,9 @@ h2
         font-size:1.1em;
         padding-left:15px;
         padding-right: 25px;
+        position: relative;
+        bottom: 24px;
+        z-index: 1;
     }
 
 .GPS
@@ -506,19 +513,36 @@ h2
     {
         height:60px;
         width:60px;
-        position: relative;
-        bottom: 2px;
-        background-color: #0065FC;
+        background-color: red;
+        opacity: 0%;
         border:none;
         border-radius: 15px;
-        border-top: 1px solid #0065FC;
-        border-bottom: 1px solid #0065fc;
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
         position: relative;
+        bottom: 20px;
         right: 12px;
         padding-left: 15px;
         padding-right: 15px;
         display: initial;
+        z-index:3;
     }
+
+
+.bouton_mobile 
+     {
+         height: 60px;
+         width: 60px;
+         background-color: #0065FC;
+         border: none;
+         border-radius: 15px;
+         display: inline-block;
+         position: relative;
+         bottom: 116px;
+         left: 310px;
+         z-index: 2;
+
+     }
 
 .bouton_recherche_desktop
     {
