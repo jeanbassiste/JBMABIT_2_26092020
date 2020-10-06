@@ -517,10 +517,53 @@ h2
 
 #activites
     {
-        margin-left: 3.3%;
-        margin-right: 3.3%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
         background-color: lime;
     }
+
+.fiche_acti
+    {
+        color: red;
+        border-radius: 20px;
+        box-shadow: ;
+    }
+
+.long 
+    {
+        height: 100px;
+        width: 20%;
+    }
+
+.demi
+    {
+        height: 50px;
+        width: 20%;
+
+    }
+
+.grand
+    {
+        height: 60px;
+        width: 20%;
+    }
+
+.petit
+    {
+        height: 40px;
+        width: 20%;
+    }
+
+.grid_activites
+{
+    display: grid;
+    grid-template-columns: 2fr 1.8fr 2fr 1fr;
+    grid-template-rows: 0fr 0.2fr 0fr 1fr;
+    justify-content: space-between;
+    align-content: space-between;
+    justify-items: center;
+    align-content: center;
+}
 
 
 /* Pour téléphones */
