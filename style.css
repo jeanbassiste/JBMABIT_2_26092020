@@ -339,7 +339,6 @@ h3
         margin-top: 0px;  
         margin-right: 7.5%;
         margin-left: 7.5%;      
-        background-color: yellowgreen;
         justify-content: space-between;
     }
 
@@ -355,15 +354,20 @@ h3
         border-radius: 20px;
     }
 
+.texte_hori
+    {
+        padding-top: 6px;
+    }
+
 aside 
     {
         background-color: #F2F2F2;
         flex: 1;
         padding-left: 3%;
         padding-right: 3%;
-        padding-top: 20px;
+        padding-top: 5px;
         padding-bottom: 20px;
-        border-radius: 3% / 11%;
+        border-radius: 20px;
     }
 
 h2
@@ -374,9 +378,15 @@ h2
 
 .CTA 
     {
+        margin-top: 40px;
         font-family: raleway_large;
     }
 
+.display_pop
+    {
+        display: flex;
+        justify-content: space-between;
+    }
 .container_grid
     {
         display: grid;
@@ -400,6 +410,39 @@ h2
         box-shadow: 0px 0px 12px gray;
         display: flex;
         flex-direction: column;
+    }
+
+.container_hori
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 89%;
+    }
+
+.fiche_hori
+    {
+        background-color: white;
+        width: 100%;
+        border-radius: 20px;
+        border: solid 2px white;
+        padding-right: 0px;
+        padding-left:4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        box-shadow: 0px 0px 20px gray;
+        display: flex;
+        flex-direction: row;
+    }
+
+.image_hori
+    {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        height: 135px;
+        width:40%;
+        margin-right: 10px;
     }
 
 .nom_hotel
@@ -427,6 +470,15 @@ h2
         padding-left: 15px;
         justify-content: left;
         margin-bottom: 5px;
+    }
+
+.rating_hori
+    {
+        display: flex;
+        padding-left: 15px;
+        justify-content: left;
+        margin-bottom: 5px;
+        margin-top: 40px;
     }
 
 .A  
