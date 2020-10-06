@@ -336,7 +336,9 @@ h3
 #bloc1
     {
         display: flex;
-        margin-top: 0px;        
+        margin-top: 0px;  
+        margin-right: 7.5%;
+        margin-left: 7.5%;      
         background-color: yellowgreen;
         justify-content: space-between;
     }
