@@ -29,23 +29,16 @@
         src: url('font/Raleway-Bold.ttf')
     }
 
+
 /* Règles générales de la page*/
 body
     {
         font-family: Raleway;
+        --bleu_reservia: #0065FC;
+        --gris: #F2F2F2;
+        --bleu_clair: #deebff
     }
 
-    .test
-    {
-        text-align: center;
-        width: 100%;
-        background-color: yellow;
-    }
-.testpop
-    {
-        width:100%;
-        background-color: aqua;
-    }
 .no_style
     {
         text-decoration: none;
@@ -94,8 +87,8 @@ nav
 
 .bouton_actif
     {
-        color: #0065FC;
-        border-top: solid 2px #0065FC;
+        color: var(--bleu_reservia);
+        border-top: solid 2px var(--bleu_reservia);
         font-size: 0.98em;
         font-family: raleway_medium;
     }
@@ -109,7 +102,7 @@ nav
 
 .inscription
     {
-        color: #0065FC;
+        color: var(--bleu_reservia);
         font-family: raleway_bold;
         padding-top: 29px;
         border-top: solid 2px white;
@@ -138,7 +131,7 @@ nav
     }
 .GPS
     {
-        background-color: #F2F2F2;
+        background-color: var(--gris);
         width: 50px;
         height: 50px;
         border-top-left-radius: 30%;
@@ -163,7 +156,7 @@ h1
         width: 21px;
         height: 21px;
         border-radius: 50%;
-        border: 2px solid #F2F2F2;
+        border: 2px solid var(--gris);
         display: inline-block;
     }
 .bloc_resultat
@@ -183,8 +176,8 @@ h1
         height: 50px;
         border-left: none;
         border-right: none;
-        border-top: 1px solid #F2F2F2;
-        border-bottom: 1px solid #F2F2F2;
+        border-top: 1px solid var(--gris);
+        border-bottom: 1px solid var(--gris);
         font-family: raleway_bold;
         font-size:1.1em;
         padding-left:15px;
@@ -201,15 +194,15 @@ h1
         height:50px;
         position: relative;
         bottom: 1px;
-        background-color: #0065FC;
+        background-color: var(--bleu_reservia);
         color: white;
         font-family: raleway_large;
         font-size:1em;
         border:none;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
-        border-top: 1px solid #0065FC;
-        border-bottom: 1px solid #0065fc;
+        border-top: 1px solid var(--bleu_reservia);
+        border-bottom: 1px solid var(--bleu_reservia);
         position: relative;
         right: 3px;
         padding-left: 15px;
@@ -245,7 +238,7 @@ h1
 .filtres 
     {
         margin-right: 2%;
-        border: solid 3px #F2F2F2;
+        border: solid 3px var(--gris);
         border-radius: 40px;
         display: flex;
         height: 45px;
@@ -253,12 +246,12 @@ h1
 
 .filtres:hover 
     {
-       background-color: #deebff;
+       background-color: var(--bleu_clair);
     }
 
 .filtres:active 
     {
-       background-color: #0065FC;
+       background-color: var(--bleu_reservia);
        color: white;
     }
 
@@ -292,7 +285,7 @@ footer
     {
         width: 100%;
         margin: 0px;
-        background-color: #F2F2F2;
+        background-color: var(--gris);
         padding-top: 25px;
         font-family: raleway_light;
         font-size: 0.9em;
@@ -344,7 +337,7 @@ h3
 
 #hebergements
     {
-        background-color: #F2F2F2;
+        background-color: var(--gris);
         flex: 2.5;
         margin-right: 3.5%;
         padding-left: 2%;
@@ -361,7 +354,7 @@ h3
 
 aside 
     {
-        background-color: #F2F2F2;
+        background-color: var(--gris);
         flex: 1;
         padding-left: 3%;
         padding-right: 3%;
@@ -638,7 +631,7 @@ h2
     .inscription_mobile
         {
             display: inline-block;
-            color: #0065FC;
+            color: var(--bleu_reservia);
             font-family: raleway_bold;
             text-align: end;
         }
@@ -675,13 +668,13 @@ h2
     .bouton_actif
     {
         border-top:none;
-        border-bottom: solid 2px #0065FC;
+        border-bottom: solid 2px var(--bleu_reservia);
     }
 
 .bouton_inactif
     {
         border-top: none;
-        border-bottom: solid 2px #F2F2F2;
+        border-bottom: solid 2px var(--gris);
 
     }
 
@@ -692,8 +685,8 @@ h2
         height: 60px;
         border-left: none;
         border-right: none;
-        border-top: 1px solid #F2F2F2;
-        border-bottom: 1px solid #F2F2F2;
+        border-top: 1px solid var(--gris);
+        border-bottom: 1px solid var(--gris);
         font-family: raleway_bold;
         font-size:1.1em;
         padding-left:15px;
@@ -705,7 +698,7 @@ h2
 
 .GPS
     {
-        background-color: #F2F2F2;
+        background-color: var(--gris);
         width: 60px;
         height: 60px;
         border-top-left-radius: 30%;
@@ -736,7 +729,7 @@ h2
      {
          height: 60px;
          width: 60px;
-         background-color: #0065FC;
+         background-color: var(--bleu_reservia);
          border: none;
          border-radius: 15px;
          display: inline-block;
@@ -766,7 +759,7 @@ footer
 
         width: 100%;
         margin: 0px;
-        background-color: #F2F2F2;
+        background-color: var(--gris);
         padding-top: 25px;
         font-family: raleway_light;
         font-size: 0.9em;
