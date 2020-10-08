@@ -716,23 +716,109 @@ header
 #bloc1
     {
         display: flex;
-        position: absolute;
-        left: 0px;
         width: 100%;
         flex-direction: column-reverse;
         margin-top: 0px;        
-        background-color: yellowgreen;
-        justify-content: space-between;
+        margin-left: 0px;
+        padding-left: 0px;
     }
 
     /* POPULAIRES */
     aside
     {
-        width: 100%;
-        background-color: red;
+        width: auto;
+        background-color: var(--gris);
         border-radius: 0px;
         padding-left: 7.5%;
         padding-right: 7.5%;
+        margin-left: 0px;
+    }
+    .display_pop
+    {
+        display: flex;
+    }
+    /* GRILLE POPULAIRE */
+    .container_hori
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        height: 89%;
+        
+    }
+    .fiche_hori
+    {
+        background-color: white;
+        width: auto;
+        border-radius: 20px;
+        border: solid 2px white;
+        padding-right: 0px;
+        padding-left:4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 20px gray;
+        display: flex;
+        flex-direction: row;
+    }
+    .image_hori
+    {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        height: 135px;
+        width: 40%;
+        margin-right: 10px;
+
+    }
+    .texte_hori
+    {
+        padding-top: 10px;
+        padding-right: 60px;
+    }
+    .rating_hori
+    {
+        display: flex;
+        padding-left: 15px;
+        justify-content: left;
+        margin-bottom: 5px;
+        margin-top: 40px;
+    }
+/* Hebergement */
+#hebergements
+    {
+        background-color: white;
+        flex: 2.5;
+        margin-right: 0px;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 20px;
+    }
+    .container_grid
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        justify-items: center;
+        align-content: center;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+    .fiche_vert
+    {
+        background-color: white;
+        width: initial;
+        border-radius: 20px;
+        border: solid 2px white;
+        padding-right: 4px;
+        padding-left:4px;
+        padding-top: 0px;
+        box-shadow: 0px 0px 12px gray;
+        display: flex;
+        flex-direction: column;
     }
 
 /* Footer mobile*/
@@ -748,6 +834,7 @@ footer
         font-size:medium;
         display: flex;
         flex-direction: column;
+        display: none;
     }
 
 h3 
