@@ -577,7 +577,6 @@ header
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
-            background-color: lime;
         }
     /* Logo + Inscription */
     .logo_inscription
@@ -875,7 +874,6 @@ footer
         font-size:medium;
         display: flex;
         flex-direction: column;
-        display: none;
     }
 
 h3 
