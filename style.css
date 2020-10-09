@@ -655,6 +655,13 @@ header
         bottom: 24px;
         z-index: 1;
     }
+    form
+    {height: 62px;}
+    .champ_recherche
+        {
+            margin: 0px;
+            position: initial;
+        }
     /* BOUTON DE RECHERCHE */
     .bouton_recherche_mobile
     {
@@ -667,7 +674,6 @@ header
         border-top: 1px solid red;
         border-bottom: 1px solid red;
         position: relative;
-        bottom: 20px;
         right: 12px;
         padding-left: 15px;
         padding-right: 15px;
@@ -684,7 +690,7 @@ header
          border-radius: 15px;
          display: inline-block;
          position: relative;
-         bottom: 116px;
+         bottom: 61px;
          left: 310px;
          z-index: 2;
      }
