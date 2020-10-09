@@ -208,6 +208,7 @@ header
         right: 3px;
         padding-left: 15px;
         padding-right: 15px;
+        cursor: pointer;
     }
     .bouton_recherche_mobile
     {
@@ -569,13 +570,14 @@ footer
 /* Pour téléphones */
 @media screen and (max-width:760px)
     {
-
+        
 /* Header mobile */
 header
         {
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
+            background-color: lime;
         }
     /* Logo + Inscription */
     .logo_inscription
@@ -671,6 +673,7 @@ header
         padding-right: 15px;
         display: initial;
         z-index:3;
+        cursor: pointer;
     }
     .bouton_mobile 
      {
@@ -790,11 +793,15 @@ header
         background-color: white;
         flex: 2.5;
         margin-right: 0px;
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-left: 0%;
+        padding-right: 0%;
         padding-top: 5px;
         padding-bottom: 5px;
         border-radius: 20px;
+    }
+    .titre_heberg, .CTA
+    {
+        padding-left: 7.5%;
     }
     .container_grid
     {
@@ -819,6 +826,40 @@ header
         box-shadow: 0px 0px 12px gray;
         display: flex;
         flex-direction: column;
+    }
+/* ACTIVITES MOBILES */
+#activites
+    {
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        margin-bottom: 3%;
+    }
+    /* GRID ACTIVITES */
+    .grid_activites
+    {
+    display: flex;
+    flex-direction: column;
+    }
+    .fiche_acti
+    {
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px gray ;
+        background-color: white;
+    }
+    .image_activites
+    {
+        margin: 0px;
+        padding: 0px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 100%;
+    }
+    .texte_activites
+    {
+        padding-top: -10px;
+        padding-left: 20px;
+        margin-bottom: 0px;
+        font-family: raleway_large;
     }
 
 /* Footer mobile*/
