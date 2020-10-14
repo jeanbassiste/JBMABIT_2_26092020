@@ -47,6 +47,11 @@ body
         color: inherit;
     }
 
+.spe_filtres
+    {
+        margin-right: 20px;
+    }
+
 h2
     {
         font-family: raleway_bold;
@@ -237,7 +242,6 @@ header
     }
     .filtres 
     {
-        margin-right: 2%;
         border: solid 3px var(--gris);
         border-radius: 40px;
         display: flex;
@@ -270,6 +274,11 @@ header
         padding-right: 15px;
         position: relative;
         bottom: 15px;
+    }
+
+    .pets 
+    {
+        flex-wrap: nowrap;
     }
 
     /* RESULTATS */
@@ -437,6 +446,7 @@ header
         box-shadow: 0px 0px 20px gray;
         display: flex;
         flex-direction: row;
+        min-width: 218px;
     }
     .image_hori
     {
@@ -450,14 +460,21 @@ header
     .texte_hori
     {
         padding-top: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .rating_hori
     {
         display: flex;
-        padding-left: 15px;
+        padding-left: 10px;
         justify-content: left;
         margin-bottom: 5px;
-        margin-top: 40px;
+    }
+    .pop 
+    {
+        padding-left: 5px;
+        min-width: 123px;;
     }
 
 /* SECTION ACTIVITES */
@@ -491,17 +508,13 @@ header
         grid-row: 1 / 3;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
     }
     .port
     {
         grid-column-start: 1;
         grid-row: 1 / 3;
     }
-    .fort 
-    {
-            
-    }
+  
     .parc 
     {
         grid-column-start: 3;
@@ -512,10 +525,10 @@ header
         grid-column-start: 4;
         grid-row: 1 / 2;
     }
-    .iles 
-    {
-        flex: 0.85;
-    }
+  .fort 
+  {
+      margin-bottom: 40px;
+  }
     .longchamp
     {
         grid-column-start: 4;
@@ -536,15 +549,19 @@ header
     }
     .grand
     {
-        height: 180px;
+        height: 200px;
     }
     .petit
     {
-        height: 110px;
+        height: 100px;
     }
     .demi
     {
-        height: 140px;
+        height: 145px;
+    }
+    .frioul
+    {
+        padding-bottom:10px;
     }
     .texte_activites
     {
@@ -591,7 +608,7 @@ footer
     }
 .choix_footer
     {
-        padding-bottom: 13px;
+        margin-bottom: 13px;
         color: black;
         text-decoration: none;
     }
@@ -825,19 +842,22 @@ header
     }
     .texte_hori
     {
-        padding-top: 10px;
-        padding-right: 60px;
-        justify-content: flex-end;
-        min-width: 188px;
+        padding-top: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .rating_hori
     {
-
         display: flex;
-        padding-left: 15px;
+        padding-left: 10px;
         justify-content: left;
-        margin-top: 30%;
-        margin-bottom: 0px;
+        margin-bottom: 5px;
+    }
+    .pop 
+    {
+        padding-left: 5px;
+        min-width: 123px;;
     }
 /* Hebergement */
 #hebergements
@@ -878,6 +898,22 @@ header
         box-shadow: 0px 0px 12px gray;
         display: flex;
         flex-direction: column;
+        height: 250px;
+        margin-bottom: 25px;
+    }
+
+    .rangbas
+    {
+        margin-top: 0px;
+    }
+    .image_vert
+    {
+        height: 170px;
+    }
+
+    .CTA
+    {
+        margin-top: 0px;
     }
 /* ACTIVITES MOBILES */
 #activites
@@ -905,6 +941,7 @@ header
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         width: 100%;
+        height: 300px;
     }
     .texte_activites
     {
@@ -912,6 +949,27 @@ header
         padding-left: 20px;
         margin-bottom: 0px;
         font-family: raleway_large;
+    }
+    .long 
+    {
+        height: 300px;
+    }
+    .grand
+    {
+        height: 300px;
+    }
+    .petit
+    {
+        height: 300px;
+    }
+    .demi
+    {
+        height: 300px;
+    }
+
+    .fort 
+    {
+        margin-bottom: 40px;
     }
 
 /* Footer mobile*/
@@ -956,7 +1014,7 @@ h3
 
 .choix_footer
     {
-        padding-bottom: 13px;
+        margin-bottom: 13px;
         color: black;
         text-decoration: none;
     }
@@ -1054,17 +1112,18 @@ border-bottom: solid 2px var(--gris);
     /* GRILLE POPULAIRE */
     .container_hori
     {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         justify-content: space-between;
-        width: auto;
-        height: 89%;
+        align-content: space-between;
+        justify-items: center;
+        align-content: center;
+        gap: 40px;
         
     }
     .fiche_hori
     {
         background-color: white;
-        width: 88%;
         border-radius: 20px;
         border: solid 2px white;
         padding-right: 0px;
@@ -1075,6 +1134,7 @@ border-bottom: solid 2px var(--gris);
         box-shadow: 0px 0px 20px gray;
         display: flex;
         flex-direction: row;
+        min-width: 0px;
     }
     .image_hori
     {
@@ -1089,6 +1149,7 @@ border-bottom: solid 2px var(--gris);
         padding-top: 10px;
         padding-right: 20px;
         font-size: 1em;
+        min-width: 0px;
 
     }
     .rating_hori
@@ -1098,6 +1159,10 @@ border-bottom: solid 2px var(--gris);
         justify-content: left;
         margin-bottom: 5px;
         margin-top: 0px;
+    }
+    .pop
+    {
+        min-width: 0px;
     }
 
     #hebergements
@@ -1193,4 +1258,52 @@ border-bottom: solid 2px var(--gris);
         margin-top: 40px;
         font-family: raleway_large;
     }
+
+    /* Footer mobile*/
+footer
+{
+
+    width: 100%;
+    margin: 0px;
+    background-color: var(--gris);
+    padding-top: 25px;
+    font-family: raleway_light;
+    font-size: 0.9em;
+    font-size:medium;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 
+{
+    font-family: raleway_bold;
+    font-weight: bolder;
+    font-size:1.3em;
+}
+.footer 
+{
+    width: 100%;
+    margin-left: 10%;
+}
+
+.footer_B
+{
+    width: 100%;
+    margin-left: 10%;
+}
+
+.menu_footer
+{
+    padding-top: 1px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.choix_footer
+{
+    margin-bottom: 13px;
+    color: black;
+    text-decoration: none;
+}
+
 }
