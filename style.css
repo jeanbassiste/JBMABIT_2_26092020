@@ -604,6 +604,11 @@ footer
 @media screen and (max-width:768px)
     {
         
+
+body 
+        {
+            min-width: 485px;
+        }
 /* Header mobile */
 header
         {
@@ -773,10 +778,14 @@ header
         padding-left: 7.5%;
         padding-right: 7.5%;
         margin-left: 0px;
+        margin-right: 0px;
+        min-width: 310px;
     }
     .display_pop
     {
         display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     /* GRILLE POPULAIRE */
     .container_hori
@@ -791,7 +800,9 @@ header
     .fiche_hori
     {
         background-color: white;
+
         width: auto;
+        min-width: 350px;
         border-radius: 20px;
         border: solid 2px white;
         padding-right: 0px;
@@ -807,7 +818,7 @@ header
     {
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
-        height: 135px;
+        height: 150px;
         width: 40%;
         margin-right: 10px;
 
@@ -816,14 +827,17 @@ header
     {
         padding-top: 10px;
         padding-right: 60px;
+        justify-content: flex-end;
+        min-width: 188px;
     }
     .rating_hori
     {
+
         display: flex;
         padding-left: 15px;
         justify-content: left;
-        margin-bottom: 5px;
-        margin-top: 40px;
+        margin-top: 30%;
+        margin-bottom: 0px;
     }
 /* Hebergement */
 #hebergements
@@ -949,3 +963,234 @@ h3
 
 
     }
+
+
+/* Pour tablette */
+@media screen and (max-width:1024px) and (min-width: 769px)
+{
+    /* Header mobile */
+header
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* Logo + Inscription */
+.logo_inscription
+{
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.inscription_mobile
+{
+    display: inline-block;
+    color: var(--bleu_reservia);
+    font-family: raleway_bold;
+    text-align: end;
+}
+.inscription
+{
+    display: none;
+}
+/* NAVIGATION */
+nav
+{
+    width: 100%;
+    margin-left: 0px;
+    position: initial;
+}
+.menu    
+{
+height: 56px;
+list-style-type: none;
+display: flex; 
+margin-top: 0px;
+}
+.bouton_actif, .bouton_inactif
+{
+padding-top: 29px;
+text-align: center;
+padding-left: 7%;
+padding-right: 7%;
+width: 50%;
+}
+.bouton_actif
+{
+border-top:none;
+border-bottom: solid 2px var(--bleu_reservia);
+}
+.bouton_inactif
+{
+border-top: none;
+border-bottom: solid 2px var(--gris);
+}
+
+/* CORPS DU SITE */
+#bloc1
+    {
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-top: 0px;        
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    /* POPULAIRES */
+    aside
+    {
+        width: auto;
+        background-color: var(--gris);
+        border-radius: 0px;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        margin-left: 0px;
+    }
+    .display_pop
+    {
+        display: flex;
+    }
+    /* GRILLE POPULAIRE */
+    .container_hori
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: auto;
+        height: 89%;
+        
+    }
+    .fiche_hori
+    {
+        background-color: white;
+        width: 88%;
+        border-radius: 20px;
+        border: solid 2px white;
+        padding-right: 0px;
+        padding-left:4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 20px gray;
+        display: flex;
+        flex-direction: row;
+    }
+    .image_hori
+    {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        height: 150px;
+        width: 40%;
+        margin-right: 0px;
+    }
+    .texte_hori
+    {
+        padding-top: 10px;
+        padding-right: 20px;
+        font-size: 1em;
+
+    }
+    .rating_hori
+    {
+        display: flex;
+        padding-left: 15px;
+        justify-content: left;
+        margin-bottom: 5px;
+        margin-top: 0px;
+    }
+
+    #hebergements
+    {
+        background-color: white;
+        flex: 1;
+        margin-right: 0px;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 0px;
+    }
+    /* GRILLE RESULTATS */
+    .container_grid
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-between;
+        align-content: space-between;
+        justify-items: center;
+        align-content: center;
+    }
+    .fiche_vert
+    {
+        background-color: white;
+        width: 88%;
+        border-radius: 20px;
+        border: solid 2px white;
+        padding-right: 4px;
+        padding-left:4px;
+        padding-top: 0px;
+        box-shadow: 0px 0px 12px gray;
+        display: flex;
+        flex-direction: column;
+    }
+    .A  
+    {
+        justify-self: start;
+    }
+    .C  
+    {
+        justify-self: end;
+    }
+    .ranghaut
+    {
+        margin-bottom: 15px;
+    }
+    .rangbas
+    {
+        margin-top: 15px;
+    }
+    .image_vert
+    {
+        width: 100%;
+        height: 120px;
+        margin-top:0px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        position: relative;
+        bottom: 13px;
+        margin-bottom:-25px;
+        object-fit: cover;
+    }
+    .nom_hotel
+    {
+        font-family: raleway_large;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom:5px;
+        padding-bottom:0px;
+        padding-left: 15px;
+    }
+    .prix
+    {
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 0.9em;
+        margin-bottom:5px;
+        padding-bottom:0px;
+        padding-left: 15px;
+    }
+    .rating
+    {
+        display: flex;
+        padding-left: 15px;
+        justify-content: left;
+        margin-bottom: 5px;
+    }
+    .CTA 
+    {
+        margin-top: 40px;
+        font-family: raleway_large;
+    }
+}
