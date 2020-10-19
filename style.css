@@ -1,3 +1,11 @@
+.centpourcent
+{
+    width: 100%;
+    height: 50px;
+    background-color: lime;
+}
+
+
 /* Déclaration police*/
 @font-face 
     {
@@ -621,7 +629,7 @@ footer
 
 body 
         {
-            min-width: 485px;
+            min-width: 280px;
         }
 /* Header mobile */
 header
@@ -778,6 +786,7 @@ header
         flex-direction: column-reverse;
         margin-top: 0px;        
         margin-left: 0px;
+        margin-right: 0px;
         padding-left: 0px;
     }
 
@@ -791,7 +800,6 @@ header
         padding-right: 7.5%;
         margin-left: 0px;
         margin-right: 0px;
-        min-width: 310px;
     }
     .display_pop
     {
@@ -814,7 +822,6 @@ header
         background-color: white;
 
         width: auto;
-        min-width: 350px;
         border-radius: 20px;
         border: solid 2px white;
         padding-right: 0px;
@@ -1086,6 +1093,7 @@ border-bottom: solid 2px var(--gris);
         flex-direction: column-reverse;
         margin-top: 0px;        
         margin-left: 0px;
+        margin-right: 0px;
         padding-left: 0px;
     }
 
@@ -1300,4 +1308,77 @@ h3
     text-decoration: none;
 }
 
+}
+
+
+
+
+@media screen and (max-width:481px)
+{
+    .GPS
+    {
+        background-color: var(--gris);
+        width: 50px;
+        height: 50px;
+        border-top-left-radius: 30%;
+        border-bottom-left-radius: 30%;
+    }
+    /* BARRE DE RECHERCHE */
+    #location
+    {
+        height: 50px;
+        width: 175px;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid var(--gris);
+        border-bottom: 1px solid var(--gris);
+        font-family: raleway_bold;
+        font-size:1em;
+        padding-left:10px;
+        padding-right: 5px;
+        position: initial;
+        z-index: 1;
+    }
+    form
+    {height: 62px;}
+    .champ_recherche
+        {
+            width: 175px;
+        }
+    /* BOUTON DE RECHERCHE */
+    .bouton_recherche_mobile
+    {
+        height:50px;
+        width:50px;
+        background-color: red;
+        opacity: 0%;
+        border:none;
+        border-radius: 15px;
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+        position: relative;
+        right: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: initial;
+        z-index:3;
+        cursor: pointer;
+    }
+    .bouton_mobile 
+     {
+         height: 50px;
+         width: 50px;
+         background-color: var(--bleu_reservia);
+         border: none;
+         border-radius: 15px;
+         display: inline-block;
+         position: relative;
+         bottom: 62px;
+         left: 200px;
+         z-index: 2;
+     }
+     .bouton_recherche_desktop
+    {
+        display: none;
+    }
 }
