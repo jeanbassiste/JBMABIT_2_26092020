@@ -1,11 +1,3 @@
-.centpourcent
-{
-    width: 100%;
-    height: 50px;
-    background-color: lime;
-}
-
-
 /* Déclaration police*/
 @font-face 
     {
@@ -46,7 +38,8 @@ body
         font-family: Raleway;
         --bleu_reservia: #0065FC;
         --gris: #F2F2F2;
-        --bleu_clair: #deebff
+        --bleu_clair: #deebff;
+        margin: 0px;
     }
 
 .no_style
@@ -80,7 +73,6 @@ header
     {
         margin-right: 7.5%;
         margin-left: 7.5%;
-        margin-top: 43px;
         display: flex;
         flex-wrap:wrap;
     }
@@ -89,13 +81,12 @@ header
     .logo_inscription
     {
         display: flex;
+        margin-top: 35px;
     }
     /* NAVIGATION */
     nav 
     {
         margin-left: 55%;
-        position: relative;
-        bottom: 40px;
     }
 
     .menu    
@@ -105,6 +96,7 @@ header
         display: flex;  
         padding-left: 0px;
         padding-right: 0px;
+        margin-block-start: 0px;
     }
 
     .bouton_actif, .bouton_inactif
@@ -629,11 +621,13 @@ footer
 
 body 
         {
-            min-width: 280px;
+            margin: 0px;
         }
 /* Header mobile */
 header
         {
+            margin-left:0px;
+            margin-right: 0px;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
@@ -644,6 +638,8 @@ header
             justify-content: space-between;
             padding-left: 15px;
             padding-right: 15px;
+            margin-left: 7.5%;
+            margin-right: 7.5%;
         }
     .inscription_mobile
         {
@@ -1028,11 +1024,20 @@ h3
 @media screen and (max-width:1024px) and (min-width: 769px)
 {
     /* Header mobile */
+    body 
+    { margin-left:0px;
+        margin-right: 0px;
+        margin: 0px;
+    }
+
+
 header
 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-left:0px;
+    margin-right: 0px;
 }
 /* Logo + Inscription */
 .logo_inscription
@@ -1040,6 +1045,8 @@ header
     justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 .inscription_mobile
 {
