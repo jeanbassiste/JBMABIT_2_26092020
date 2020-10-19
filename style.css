@@ -229,8 +229,6 @@ header
     {
         margin-bottom: 15px;
         display: flex;
-        padding-top:auto;
-        padding-bottom:auto;
         flex-wrap: wrap;
         justify-content: flex-start;
         width: 100%;
@@ -565,7 +563,6 @@ header
     }
     .texte_activites
     {
-        padding-top: -10px;
         padding-left: 20px;
         padding-bottom: 10px;
         margin-bottom: 0px;
@@ -758,8 +755,6 @@ header
     {
         margin-bottom: 25px;
         display: flex;
-        padding-top:auto;
-        padding-bottom:auto;
         flex-wrap: wrap;
         justify-content: flex-start;
         width: 100%;
@@ -945,7 +940,6 @@ header
     }
     .texte_activites
     {
-        padding-top: -10px;
         padding-left: 20px;
         margin-bottom: 0px;
         font-family: raleway_large;
