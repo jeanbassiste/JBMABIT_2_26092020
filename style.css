@@ -1322,6 +1322,8 @@ h3
 
 
 
+
+
 @media screen and (max-width:481px)
 {
     .GPS
@@ -1336,13 +1338,13 @@ h3
     #location
     {
         height: 50px;
-        width: 175px;
+        width: 150px;
         border-left: none;
         border-right: none;
         border-top: 1px solid var(--gris);
         border-bottom: 1px solid var(--gris);
         font-family: raleway_bold;
-        font-size:1em;
+        font-size:0.8em;
         padding-left:10px;
         padding-right: 5px;
         position: initial;
@@ -1350,9 +1352,10 @@ h3
     }
     form
     {height: 62px;}
+
     .champ_recherche
         {
-            width: 175px;
+            width: 150px;
         }
     /* BOUTON DE RECHERCHE */
     .bouton_recherche_mobile
@@ -1360,13 +1363,14 @@ h3
         height:50px;
         width:50px;
         background-color: red;
-        opacity: 0%;
         border:none;
+        opacity: 0%;
         border-radius: 15px;
         border-top: 1px solid red;
         border-bottom: 1px solid red;
         position: relative;
-        right: 12px;
+        left:150px;
+        bottom: 50px;
         padding-left: 5px;
         padding-right: 5px;
         display: initial;
@@ -1390,7 +1394,15 @@ h3
     {
         display: none;
     }
+
+    h1
+    {
+        font-size: 1.1em;
+    }
+
 }
+
+
 
 
 @media screen and (max-width:767px) and (min-width: 482px) and (min--moz-device-pixel-ratio:0)
