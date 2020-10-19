@@ -617,7 +617,7 @@ footer
 
 
 /* Pour téléphones */
-@media screen and (max-width:768px)
+@media screen and (max-width:767px)
     {
         
 
@@ -1023,7 +1023,7 @@ h3
 
 
 /* Pour tablette */
-@media screen and (max-width:1024px) and (min-width: 769px)
+@media screen and (max-width:1024px) and (min-width: 768px)
 {
     /* Header mobile */
     body 
@@ -1389,5 +1389,25 @@ h3
      .bouton_recherche_desktop
     {
         display: none;
+    }
+}
+
+
+@media screen and (max-width:767px) and (min-width: 482px) and (min--moz-device-pixel-ratio:0)
+
+{
+    #location
+    {
+        height: 60px;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid var(--gris);
+        border-bottom: 1px solid var(--gris);
+        font-family: raleway_bold;
+        font-size:1.1em;
+        padding-left:15px;
+        padding-right: 25px;
+        position: initial;
+        z-index: 1;
     }
 }
