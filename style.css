@@ -64,6 +64,7 @@ h3
         font-family: raleway_bold;
         font-weight: bolder;
         font-size:1.3em;
+        margin-block-start: 16px;
     }
 
 
@@ -292,12 +293,15 @@ header
         border: 2px solid var(--gris);
         display: inline-block;
     }
-    .résultats
+    h5
     {
         position: relative;
-        bottom: 12px;
+        bottom: 26px;
         padding-left: 10px;
         width: 75%;
+        font-weight: initial;
+        font-size: 1.1em;
+        margin-block-end: 0px;
     }
 
 /* CORPS DU SITE */
@@ -434,10 +438,9 @@ header
     .fiche_hori
     {
         background-color: white;
-        width: 100%;
         border-radius: 20px;
         border: solid 2px white;
-        padding-right: 0px;
+        padding-right: 4px;
         padding-left:4px;
         padding-top: 4px;
         padding-bottom: 4px;
@@ -480,7 +483,7 @@ header
     {
         margin-left: 7.5%;
         margin-right: 7.5%;
-        margin-bottom: 3%;
+        margin-bottom: 41px;
     }
     /* GRID ACTIVITES */
     .grid_activites
@@ -508,6 +511,7 @@ header
         display: flex;
         flex-direction: column;
         width:100%;
+        justify-content: space-between;
     }
     .port
     {
@@ -588,6 +592,7 @@ footer
         font-size: 0.9em;
         font-size:medium;
         display: flex;
+        padding-bottom: 25px;
     }
 
 .footer 
@@ -786,6 +791,8 @@ header
         margin-left: 0px;
         margin-right: 0px;
         padding-left: 0px;
+        margin-bottom: 41px;
+
     }
 
     /* POPULAIRES */
@@ -798,6 +805,7 @@ header
         padding-right: 7.5%;
         margin-left: 0px;
         margin-right: 0px;
+        margin-bottom: 41px;
     }
     .display_pop
     {
@@ -920,7 +928,6 @@ header
     {
         margin-left: 7.5%;
         margin-right: 7.5%;
-        margin-bottom: 3%;
     }
     /* GRID ACTIVITES */
     .grid_activites
@@ -991,6 +998,7 @@ h3
         font-family: raleway_bold;
         font-weight: bolder;
         font-size:1.3em;
+        
     }
 .footer 
     {
@@ -1002,6 +1010,7 @@ h3
     {
         width: 75%;
         margin-left: 10%;
+
     }
 
 .menu_footer
