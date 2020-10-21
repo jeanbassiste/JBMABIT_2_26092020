@@ -234,7 +234,7 @@ header
 
     .bouton 
     {
-        color: white; font-size: 1.5em; padding-top: 30%; padding-left: 25%;
+        color: white; font-size: 1.7em;
     }
 
     /* FILTRES */
@@ -770,7 +770,7 @@ header
         padding-left:15px;
         padding-right: 25px;
         position: relative;
-        bottom: 24px;
+        bottom: 2px;
         z-index: 1;
     }
     form
@@ -785,12 +785,11 @@ header
     {
         height:60px;
         width:60px;
-        background-color: red;
-        opacity: 0%;
+        background-color: var(--bleu_reservia);
         border:none;
         border-radius: 15px;
-        border-top: 1px solid red;
-        border-bottom: 1px solid red;
+        border-top: 1px solid var(--bleu_reservia);
+        border-bottom: 1px solid var(--bleu_reservia);
         position: relative;
         right: 12px;
         padding-left: 15px;
@@ -799,19 +798,7 @@ header
         z-index:3;
         cursor: pointer;
     }
-    .bouton_mobile 
-     {
-         height: 60px;
-         width: 60px;
-         background-color: var(--bleu_reservia);
-         border: none;
-         border-radius: 15px;
-         display: inline-block;
-         position: relative;
-         bottom: 61px;
-         left: 310px;
-         z-index: 2;
-     }
+    
      .bouton_recherche_desktop
     {
         display: none;
@@ -1394,26 +1381,43 @@ h3
     .GPS
     {
         background-color: var(--gris);
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 40px;
         border-top-left-radius: 30%;
         border-bottom-left-radius: 30%;
+        padding-left: 0px;
+    }
+    .icone_gps
+    {
+        position: initial;
+        padding-top: 12px;
+        padding-left: 9px;
     }
     /* BARRE DE RECHERCHE */
     #location
     {
-        height: 50px;
-        width: 150px;
+        height: 40px;
+        width: 115px;
         border-left: none;
         border-right: none;
         border-top: 1px solid var(--gris);
         border-bottom: 1px solid var(--gris);
         font-family: raleway_bold;
-        font-size:0.8em;
-        padding-left:10px;
+        font-size:0.7em;
+        padding-left:5px;
         padding-right: 5px;
-        position: initial;
+        position: relative;
+        bottom: 4px;
         z-index: 1;
+    }
+
+    .bouton_recherche_mobile
+    {
+        width:30px;
+        height: 40px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        padding-left: 3px;
     }
     form
     {height: 62px;}
@@ -1423,38 +1427,7 @@ h3
             width: 150px;
         }
     /* BOUTON DE RECHERCHE */
-    .bouton_recherche_mobile
-    {
-        height:50px;
-        width:50px;
-        background-color: red;
-        border:none;
-        opacity: 0%;
-        border-radius: 15px;
-        border-top: 1px solid red;
-        border-bottom: 1px solid red;
-        position: relative;
-        left:150px;
-        bottom: 50px;
-        padding-left: 5px;
-        padding-right: 5px;
-        display: initial;
-        z-index:3;
-        cursor: pointer;
-    }
-    .bouton_mobile 
-     {
-         height: 50px;
-         width: 50px;
-         background-color: var(--bleu_reservia);
-         border: none;
-         border-radius: 15px;
-         display: inline-block;
-         position: relative;
-         bottom: 62px;
-         left: 200px;
-         z-index: 2;
-     }
+   
      .bouton_recherche_desktop
     {
         display: none;
