@@ -1479,25 +1479,3 @@ h3
     }
 
 }
-
-
-
-
-@media screen and (max-width:767px) and (min-width: 482px) and (min--moz-device-pixel-ratio:0)
-
-{
-    #location
-    {
-        height: 60px;
-        border-left: none;
-        border-right: none;
-        border-top: 1px solid var(--gris);
-        border-bottom: 1px solid var(--gris);
-        font-family: raleway_bold;
-        font-size:1.1em;
-        padding-left:15px;
-        padding-right: 25px;
-        position: initial;
-        z-index: 1;
-    }
-}
