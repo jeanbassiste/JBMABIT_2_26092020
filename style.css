@@ -2,7 +2,7 @@
 @font-face 
     {
         font-family: Raleway_bold;
-        src: url('font/Raleway-Bold.ttf');
+        src: url('font/Raleway-extraBold.ttf');
     }
 
 @font-face 
@@ -130,7 +130,6 @@ header
     .inscription
     {
         color: var(--bleu_reservia);
-        font-family: raleway_bold;
         padding-top: 29px;
         border-top: solid 2px white;
         padding-left: 7%;
