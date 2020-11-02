@@ -36,9 +36,6 @@
 body
     {
         font-family: Raleway;
-        --bleu_reservia: #0065FC;
-        --gris: #F2F2F2;
-        --bleu_clair: #deebff;
         margin: 0px;
     }
 
@@ -114,8 +111,8 @@ header
 
     .bouton_actif
     {
-        color: var(--bleu_reservia);
-        border-top: solid 2px var(--bleu_reservia);
+        color: #0065FC;
+        border-top: solid 2px #0065FC;
         font-size: 0.98em;
         font-family: raleway_medium;
     }
@@ -129,7 +126,7 @@ header
 
     .inscription
     {
-        color: var(--bleu_reservia);
+        color: #0065FC;
         padding-top: 29px;
         border-top: solid 2px white;
         padding-left: 7%;
@@ -184,7 +181,7 @@ header
     /* ICONE GPS */
     .GPS
     {
-        background-color: var(--gris);
+        background-color: #F2F2F2;
         width: 50px;
         height: 50px;
         border-top-left-radius: 30%;
@@ -207,8 +204,8 @@ header
         height: 50px;
         border-left: none;
         border-right: none;
-        border-top: 1px solid var(--gris);
-        border-bottom: 1px solid var(--gris);
+        border-top: 1px solid #F2F2F2;
+        border-bottom: 1px solid #F2F2F2;
         font-family: raleway_bold;
         font-size:1.1em;
         padding-left:15px;
@@ -219,15 +216,15 @@ header
         height:50px;
         position: relative;
         bottom: 1px;
-        background-color: var(--bleu_reservia);
+        background-color: rgb(0, 101,252);
         color: white;
         font-family: raleway_large;
         font-size:1em;
         border:none;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
-        border-top: 1px solid var(--bleu_reservia);
-        border-bottom: 1px solid var(--bleu_reservia);
+        border-top: 1px solid #0065FC;
+        border-bottom: 1px solid #0065FC;
         position: relative;
         right: 3px;
         padding-left: 15px;
@@ -264,14 +261,14 @@ header
     }
     .filtres 
     {
-        border: solid 3px var(--gris);
+        border: solid 3px #F2F2F2;
         border-radius: 40px;
         display: flex;
         height: 45px;
     }
     .filtres:hover 
     {
-       background-color: var(--bleu_reservia);
+       background-color: #0065FC;
        color: white;
     }
     .rond
@@ -339,7 +336,7 @@ header
         width: 21px;
         height: 21px;
         border-radius: 50%;
-        border: 2px solid var(--gris);
+        border: 2px solid #F2F2F2;
         display: inline-block;
     }
     h5
@@ -372,7 +369,7 @@ header
 /* SECTION HEBERGEMENT */
 #hebergements
     {
-        background-color: var(--gris);
+        background-color: #F2F2F2;
         flex: 2.5;
         margin-right: 3.5%;
         padding-left: 3%;
@@ -465,12 +462,12 @@ header
 
     .blue_star
     {
-        color: var(--bleu_reservia)
+        color: #0065FC
     }
 
     .grey_star
     {
-        color: var(--bleu_clair)
+        color: #deebff
     }
     .CTA 
     {
@@ -481,7 +478,7 @@ header
     /* LES PLUS POPULAIRES */
     aside 
     {
-        background-color: var(--gris);
+        background-color: #F2F2F2;
         flex: 1;
         padding-left: 3%;
         padding-right: 3%;
@@ -661,7 +658,7 @@ footer
     {
         width: 100%;
         margin: 0px;
-        background-color: var(--gris);
+        background-color: #F2F2F2;
         padding-top: 25px;
         font-family: raleway_light;
         font-size: 0.9em;
@@ -726,7 +723,7 @@ header
     .inscription_mobile
         {
             display: inline-block;
-            color: var(--bleu_reservia);
+            color: #0065FC;
             font-family: raleway_bold;
             text-align: end;
         }
@@ -758,19 +755,19 @@ header
     .bouton_actif
     {
         border-top:none;
-        border-bottom: solid 2px var(--bleu_reservia);
+        border-bottom: solid 2px #0065FC;
     }
     .bouton_inactif
     {
         border-top: none;
-        border-bottom: solid 2px var(--gris);
+        border-bottom: solid 2px #F2F2F2;
     }
 
 /* Section recherche mobile */
     /* ICON GPS*/
     .GPS
     {
-        background-color: var(--gris);
+        background-color: #F2F2F2;
         width: 60px;
         height: 60px;
         border-top-left-radius: 30%;
@@ -782,8 +779,8 @@ header
         height: 60px;
         border-left: none;
         border-right: none;
-        border-top: 1px solid var(--gris);
-        border-bottom: 1px solid var(--gris);
+        border-top: 1px solid #F2F2F2;
+        border-bottom: 1px solid #F2F2F2;
         font-family: raleway_bold;
         font-size:1.1em;
         padding-left:15px;
@@ -804,11 +801,11 @@ header
     {
         height:60px;
         width:60px;
-        background-color: var(--bleu_reservia);
+        background-color: rgb(0, 101,252);
         border:none;
         border-radius: 15px;
-        border-top: 1px solid var(--bleu_reservia);
-        border-bottom: 1px solid var(--bleu_reservia);
+        border-top: 1px solid #0065FC;
+        border-bottom: 1px solid #0065FC;
         position: relative;
         right: 12px;
         padding-left: 15px;
@@ -861,7 +858,7 @@ header
     aside
     {
         width: auto;
-        background-color: var(--gris);
+        background-color: #F2F2F2;
         border-radius: 0px;
         padding-left: 7.5%;
         padding-right: 7.5%;
@@ -1047,7 +1044,7 @@ footer
 
         width: 100%;
         margin: 0px;
-        background-color: var(--gris);
+        background-color: #F2F2F2;
         padding-top: 25px;
         font-family: raleway_light;
         font-size: 0.9em;
@@ -1128,7 +1125,7 @@ header
 .inscription_mobile
 {
     display: inline-block;
-    color: var(--bleu_reservia);
+    color: #0065FC;
     font-family: raleway_bold;
     text-align: end;
 }
@@ -1161,12 +1158,12 @@ width: 50%;
 .bouton_actif
 {
 border-top:none;
-border-bottom: solid 2px var(--bleu_reservia);
+border-bottom: solid 2px #0065FC;
 }
 .bouton_inactif
 {
 border-top: none;
-border-bottom: solid 2px var(--gris);
+border-bottom: solid 2px #F2F2F2;
 }
 
 .motto
@@ -1200,7 +1197,7 @@ border-bottom: solid 2px var(--gris);
     aside
     {
         width: auto;
-        background-color: var(--gris);
+        background-color: #F2F2F2;
         border-radius: 0px;
         padding-left: 7.5%;
         padding-right: 7.5%;
@@ -1226,7 +1223,7 @@ border-bottom: solid 2px var(--gris);
     {
         background-color: white;
         border-radius: 20px;
-        border: solid 2px white;
+        border: solid 2px #FFFF;
         padding-right: 0px;
         padding-left:4px;
         padding-top: 4px;
@@ -1297,7 +1294,7 @@ border-bottom: solid 2px var(--gris);
         background-color: white;
         width: 88%;
         border-radius: 20px;
-        border: solid 2px white;
+        border: solid 2px #FFFF;
         padding-right: 4px;
         padding-left:4px;
         padding-top: 0px;
@@ -1370,7 +1367,7 @@ footer
 
     width: 100%;
     margin: 0px;
-    background-color: var(--gris);
+    background-color: #F2F2F2;
     padding-top: 25px;
     font-family: raleway_light;
     font-size: 0.9em;
@@ -1422,7 +1419,7 @@ h3
 {
     .GPS
     {
-        background-color: var(--gris);
+        background-color: #F2F2F2;
         width: 30px;
         height: 40px;
         border-top-left-radius: 30%;
@@ -1442,8 +1439,8 @@ h3
         width: 115px;
         border-left: none;
         border-right: none;
-        border-top: 1px solid var(--gris);
-        border-bottom: 1px solid var(--gris);
+        border-top: 1px solid #F2F2F2;
+        border-bottom: 1px solid #F2F2F2;
         font-family: raleway_bold;
         font-size:0.7em;
         padding-left:5px;
